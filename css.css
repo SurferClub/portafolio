@@ -1,0 +1,49 @@
+:root {
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    height: 100%;
+}
+html {
+    height: 100%;
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+header{
+    position: relative;
+    width: 100%;
+    text-align:center;
+    background-image: url("./assets/code.png") ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 3rem; 
+}
+header img {
+    width: 152px;
+    height:  160px;
+    margin-top: 60px;
+    align-self: center;
+}
+.header--title-container{
+    width: 90%;
+    height: 200px;
+    margin-top: 150px;
+    text-align: center;
+    align-self: center;
+}
+.header--title-container p{
+    margin-top: 20px;
+    font-weight: 500;
+}
+.header--title-container .header--button{
+    position: absolute;
+}
