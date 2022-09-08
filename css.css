@@ -118,6 +118,28 @@ header img {
     background-position: center;
     background-repeat: no-repeat; 
 }
+.proyect-detail-card .aseo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("./assets/soap_washing_clean_cleaning_icon_140095.png");    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.proyect-detail-card .ram {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("./assets/triangle_container_empty_wrapper_icon_145921.png");    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
 .proyect-card-title {
     margin-bottom: 15px;
   font-size: 1.8rem;
