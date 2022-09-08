@@ -47,3 +47,85 @@ header img {
 .header--title-container .header--button{
     position: absolute;
 }
+.resumen-detail {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    background-color: black;
+    color: aliceblue;
+}
+.resumen-detail-title {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.main-details-perfil{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    background-color: aquamarine;
+    color: black;
+}
+.main-details-perfil-title {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.proyect-detail-card{
+    width: 90%;
+    height: 182px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: antiquewhite;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    
+}
+.proyect-detail-card img{
+    width: auto;
+    height: 70px;
+    position: absolute;
+    left: calc(70% - 50px);
+    margin: -60px 0px;
+    padding: 0;
+    
+}
+.proyect-detail-card .pc {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-image: url("./assets/1458264592_laptop_computer_pc_device_notebook_netbook_internet_icon-icons.com_55334.png");    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.proyect-detail-card .fruit {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("./assets/32344tangerine_98931.png");    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.proyect-card-title {
+    margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+.proyect-card-body{
+    font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
