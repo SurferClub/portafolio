@@ -2,6 +2,7 @@
  --greenadd: #02243A;
  --greenclaro: #054B78;
  --resumecolor: #032A43;
+ --letraSecciones: #1881C5;
 }
 
 * {
@@ -103,7 +104,7 @@ header img {
     height: auto;
     padding: 20px 10px;
     background-color: var(--greenadd);
-    color: black;
+    color: var(--letraSecciones);
 }
 .main-details-perfil-title {
     width: 90%;
@@ -120,6 +121,9 @@ header img {
     margin-top: 5px;
     font-size: 1.5rem;
 }
+.proyect-cards-container {
+    
+}
 .proyect-detail-card{
     width: 90%;
     height: 182px;
@@ -130,9 +134,12 @@ header img {
     border-radius: 4px;
     display: flex;
     justify-content: center;
+    color: #0C1C26;
 }
 .proyect-detail-card-description {
     width: 80%;
+    margin: 10px 25px;
+    font-weight: bold;
 }
 .proyect-detail-card img{
     /* width: auto;
