@@ -3,6 +3,8 @@
  --greenclaro: #054B78;
  --resumecolor: #032A43;
  --letraSecciones: #1881C5;
+
+ --tamañologo: 30px;
 }
 
 * {
@@ -120,13 +122,14 @@ header img {
 .main-details-perfil p {
     margin-top: 5px;
     font-size: 1.5rem;
+    
 }
 .proyect-cards-container {
     
 }
 .proyect-detail-card{
     width: 90%;
-    height: 182px;
+    height: auto;
     margin: 15px auto;
     padding: 15px;
     background-color: var(--greenclaro);
@@ -138,8 +141,30 @@ header img {
 }
 .proyect-detail-card-description {
     width: 80%;
-    margin: 10px 25px;
+    margin: 10px 45px;
     font-weight: bold;
+}
+.proyect-detail-card-description .proyect-card-title {
+    margin-bottom: 15px;
+    display: inline-flex;
+    
+}
+.proyect-card-title p {
+    margin-left: 20px;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.proyect-detail-card-description .proyect-card-body {
+    font-size: 1.5rem;
+    font-weight: 535;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+.proyect-detail-card-description a {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-decoration: none;
 }
 .proyect-detail-card img{
     /* width: auto;
@@ -151,12 +176,13 @@ header img {
     width: auto;
     height: 90px;
     margin-top: 30px;
+    margin-right: 30px;
     
 }   
 .proyect-detail-card .pc {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: var(--tamañologo);
+  height: var(--tamañologo);
   margin: 0 auto;
   margin-bottom: 10px;
   background-image: url("./assets/1458264592_laptop_computer_pc_device_notebook_netbook_internet_icon-icons.com_55334.png");    
@@ -166,8 +192,8 @@ header img {
 }
 .proyect-detail-card .fruit {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: var(--tamañologo);
+    height: var(--tamañologo);
     margin: 0 auto;
     margin-bottom: 10px;
     background-image: url("./assets/32344tangerine_98931.png");    
@@ -177,8 +203,8 @@ header img {
 }
 .proyect-detail-card .aseo {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: var(--tamañologo);
+    height: var(--tamañologo);
     margin: 0 auto;
     margin-bottom: 10px;
     background-image: url("./assets/soap_washing_clean_cleaning_icon_140095.png");    
@@ -188,8 +214,8 @@ header img {
 }
 .proyect-detail-card .ram {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: var(--tamañologo);
+    height: var(--tamañologo);
     margin: 0 auto;
     margin-bottom: 10px;
     background-image: url("./assets/triangle_container_empty_wrapper_icon_145921.png");    
@@ -198,13 +224,8 @@ header img {
     background-repeat: no-repeat; 
 }
 .proyect-card-title {
-    margin-bottom: 15px;
-  font-size: 1.8rem;
-  font-weight: bold;
-  line-height: 1.8rem;
+   
 }
 .proyect-card-body{
-    font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 1.8rem;
+    
 }
