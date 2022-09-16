@@ -1,8 +1,8 @@
 :root {
- --greenadd: #02243A;
- --greenclaro: #054B78;
+ --greenadd: #202020;
+ --greenclaro: #313131;
  --resumecolor: #032A43;
- --letraSecciones: #1881C5;
+ --letraSecciones: #B6B6B6;
 
  --tamañologo: 30px;
 }
@@ -105,7 +105,7 @@ header img {
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color: aliceblue;
+    color: var(--letraSecciones);
 }
 .resumen-detail-title p{
     margin-bottom: 20px;
@@ -117,7 +117,7 @@ header img {
 .resumen-detail-title a{
     font-size: 2.0rem;
     text-decoration: none;
-    color: aliceblue;
+    color: var(--letraSecciones);
 }
 .main-details-perfil{
     position: relative;
@@ -156,7 +156,7 @@ header img {
     border-radius: 4px;
     display: flex;
     justify-content: center;
-    color: #0C1C26;
+    color: var(--letraSecciones);
 }
 .proyect-detail-card-description {
     width: 80%;
@@ -184,6 +184,7 @@ header img {
     font-size: 1.5rem;
     line-height: 2rem;
     text-decoration: none;
+    color: var(--letraSecciones);
 }
 .proyect-detail-card img{
     /* width: auto;
