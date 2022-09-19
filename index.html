@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maqueta</title>
     <link rel="stylesheet" href="./css.css">
+    <script src="./modal-galery.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
     </style>
@@ -100,15 +101,21 @@
                     <div class="plans-container--slider">
                         <div class="plans-container--card">
                             <div class="plan-card">
-                                <h3 class="plan-card--title">galeria</h3>
-                                <img src="./assets/LAVADORA.jpg" alt="">
+                                <h3 class="plan-card--title"></h3>
+                                
+                                    <img id="myImg" alt="lavadora" src="./assets/LAVADORA.jpg" alt="" style="width: 100%;max-width:300px">
+                                    <div id="myModal" class="modal">
+                                        <span class="close">&times;</span>
+                                        <img class="modal-content" id="img01">
+                                        <div id="caption"></div>
+                                    </div>
 
                             </div>
                         </div>
 
                         <div class="plans-container--card">
                             <div class="plan-card">
-                                <h3 class="plan-card--title">galeria</h3>
+                                <h3 class="plan-card--title"></h3>
                                 <img src="./assets/bit a bit contacto.png" alt="">
 
                             </div>
