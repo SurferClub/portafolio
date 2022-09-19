@@ -253,8 +253,8 @@ header img {
     box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
 }
 .plan-card img {
-    width: 120px;
-    height: 120px;
+    width: 700px;
+    height: auto;
     border: double;
 }
 /* insertando modal para imagen */
@@ -281,7 +281,7 @@ header img {
 .modal-content{
     margin: auto;
     display: block;
-    width: ;
+    width: 80%;
     max-width: 700px;
 }
 #caption {
