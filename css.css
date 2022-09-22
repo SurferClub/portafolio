@@ -124,17 +124,20 @@ header img {
     position: relative;
     width: 100%;
     height: auto;
+    min-width: 320px;
     padding: 20px 10px;
     background-color: var(--greenadd);
     color: var(--letraSecciones);
 }
 .main-details-perfil-title {
-    width: 55%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
+    min-width: 288px;
     margin-top: 50px;
     text-align: center;
     margin-bottom: 50px;
+    max-width: 900px;
 }
 .main-details-perfil h2 {
     font-size: 2rem;
@@ -144,12 +147,12 @@ header img {
     font-size: 1.5rem;
     
 }
-.proyect-cards-container {
-    
-}
+
 .proyect-detail-card{
-    width: 65%;
-    height: auto;
+    width: 85%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 192px;
     margin: 15px auto;
     padding: 15px;
     background-color: var(--greenclaro);
@@ -160,7 +163,7 @@ header img {
     color: var(--letraSecciones);
 }
 .proyect-detail-card-description {
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
     font-weight: bold;
 }
@@ -194,8 +197,8 @@ header img {
     left: calc(70% - 50px);
     margin: -60px 0px;
     padding: 0; */
-  min-width: 5px;
-    min-height: 5px;
+  min-width: 120px;
+    min-height: 10px;
     max-width: 200px;
     max-height: auto; 
     
@@ -248,6 +251,7 @@ header img {
 .plans-container--slider{
     display: flex;
     height: 220px;
+    
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
