@@ -18,10 +18,17 @@ span.onclick = function() {
   modal.style.display = "none";
 } 
 
-var modal2 = document.getElementById("myModal2");
-var modalImg2 = document.getElementById("img02");
+/* var modal2 = document.getElementById("myModal2");
+var modalImg2 = document.getElementById("img02"); */
 var img2 = document.getElementById("myImg2");
 img2.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img3 = document.getElementById("myImg3");
+img3.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
