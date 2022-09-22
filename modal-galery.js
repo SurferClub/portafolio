@@ -33,3 +33,11 @@ img3.onclick = function(){
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
 }
+/* var modal2 = document.getElementById("myModal2");
+var captionText = document.getElementById("caption2"); */
+var img4 = document.getElementById("myImg4");
+img4.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
