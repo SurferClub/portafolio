@@ -3,8 +3,12 @@
  --greenclaro: #313131;
  --resumecolor: #032A43;
  --letraSecciones: #B6B6B6;
+ --fondo: #202020;
+ 
 
  --tamañologo: 30px;
+ --gradient-header-background: rgb(1,14,71); 
+ --gradient-header-linear: linear-gradient(90deg, rgba(1,14,71,1) 0%, rgba(44,70,186,1) 54%, rgba(14,0,102,0.9990371148459384) 99%);;
 }
 
 * {
@@ -20,12 +24,15 @@ html {
     height: 100%;
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
+    background-color: var(--fondo);
 }
 header{
-    position: relative;
-    width: 100%;
+   
+   
+    
     text-align: center;
-    background-image: url("./assets/code.png") ;
+    background: var(--gradient-header-background);
+    background: var(--gradient-header-linear);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +40,7 @@ header{
     color: aliceblue; 
 }
 header h1 {
-    font-size:4rem;
+    font-size:3rem;
     text-shadow: 2px 0 0 #000,
     -2px 0 0 #000,
     0 2px 0 #000,
@@ -42,10 +49,11 @@ header h1 {
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000;
+   
     
 }
 header p {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     font-weight: 500;
     line-height: 5.8rem;
     font-size:1.5rem;
@@ -68,15 +76,24 @@ header p {
 header img {
     width: 250px;
     height:  250px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     align-self: center;
 }
 .header--title-container{
-    width: 100%;
-    height: 200px;
-    margin-top: 150px;
+    
+    height: auto;
+     margin-top: 10px; 
     text-align: center;
     align-self: center;
+    
+}
+.header--title-container h1{
+   
+   
+    
+    text-align: center;
+   
+    
 }
 .header--title-container p{
     margin-top: 20px;
@@ -121,8 +138,8 @@ header img {
     color: var(--letraSecciones);
 }
 .main-details-perfil{
-    position: relative;
-    width: 100%;
+    
+    
     height: auto;
     padding: 20px 10px;
     background-color: var(--greenadd);
@@ -144,25 +161,24 @@ header img {
     font-size: 1.5rem;
     
 }
-.proyect-cards-container {
-    
-}
+
 .proyect-detail-card{
-    width: 85%;
-    min-width: 288px;
+    display: flex;
+    min-width: 20px;
     max-width: 400px;
-    height: 192px;
+    
     margin: 17px auto;
     padding: 15px;
     background-color: var(--greenclaro);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
     border-radius: 4px;
-    display: flex;
+   
     justify-content: center;
     color: var(--letraSecciones);
 }
+
 .proyect-detail-card-description {
-    width: 80%;
+    
     margin: 0px auto;
     font-weight: bold;
 }

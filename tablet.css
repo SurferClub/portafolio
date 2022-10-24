@@ -1,6 +1,6 @@
 .proyect-cards-container {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 90%;
     margin: 0 auto;
 }
